@@ -1,0 +1,48 @@
+---
+title: "304 final"
+author: "Xue Shan1004173262"
+date: "2020/12/20"
+output:
+
+---
+
+
+```
+
+
+Predicting the different outcome of 2019 Canadian Federal Election
+Xue Shan 1004173262
+2020/12/20
+
+Abstract:
+
+Every Canadian federal election is very eye-catching and exciting. Voting among Canadian citizens is also particularly valued. Those who are eligible to vote need to be Canadian citizens over 18 years of age. The votes cast by voters represent the members of the council who received the most votes in their electoral district rather than directly elect the prime minister.  The goal of my upcoming research is to assume that all Canadian citizens participate in the voting, whether the result is the same as the original result in 2019. The method I use is to use MRP and post stratification to make this prediction.
+
+Keywords:
+
+2019 Canadian federal election, Mulit-level Regression Post stratification (MRP), post-stratification, Justin Trudeau
+
+Introduction:
+
+The topic I want to study this time is if everyone voted, whether the 2019 election results will be different or not. According to Canadian election policy, Canada is a parliamentary democracy, in 2019, the Canadian Parliament has 338 electoral districts, divided into Liberal Party electoral districts, Conservative Party and New Democratic Party. Each constituency must elect its own member of parliament. The party that wins the most districts forms the government. In the end, Justin Trudeau of the Liberal Party won the most votes to become the prime minister of 2019. 	
+
+Assuming all citizens who are eligible to vote participate in the vote, whether it has a new result will be obtained or not. In order to further study this hypothesis, using the survey dataset provided by Canadian Election Survey to obtain a primary result. Building the MRP model and predict the new result from the post-stratification dataset adjusted by census data. Based on the detailed result and model, it will have a deeper analysis to comparing the differences between those two results.
+
+The survey data I will use the Canadian election survey(CES), and the demographic data I will choose are cps_19gender, cps_19province, cps_19education and cps_19age. The voting intention I will choose cps_19votechoice. And, the census data I used to be gss data.
+
+
+Reference：
+
+2019 Canadian federal election：
+https://en.wikipedia.org/wiki/2019_Canadian_federal_election
+Stephenson, Laura B., Allison Harell, Daniel Rubenson and Peter John Loewen. The 2019 Canadian Election Study – Phone Survey.
+
+
+
+
+
+
+
+
+
+
